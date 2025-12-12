@@ -32,37 +32,37 @@ const scholars: Scholar[] = [
     name: "Java Maulana", 
     specialization: "Java", 
     img: "/img/Java.jpg", 
-    thesis: "The Leader. Always calculating moves ahead. Ensures every variable in the SIXMA equation remains balanced." 
+    thesis: "Hi, I like Tambusu" 
   },
   { 
     name: "Naila Farizka Azzahra", 
     specialization: "Naila", 
     img: "/img/Naila.jpg", 
-    thesis: "The Strategist. Finds patterns in chaos. A strategic mind that solves problems before they even occur." 
+    thesis: "She likes editing" 
   },
   { 
     name: "Mutiara Aviva", 
     specialization: "Rara", 
     img: "/img/Rara.jpg", 
-    thesis: "The Executor. Precision and accurate execution. When the formula gets complicated, she solves it efficiently." 
+    thesis: "She likes ice cream" 
   },
   { 
     name: "Meisya Putri Jenicka", 
     specialization: "Meisya", 
     img: "/img/Meisya.jpg", 
-    thesis: "The Creator. Transforming abstract theories into visual arts. Proving that mathematics is beautiful." 
+    thesis: "She likes singing" 
   },
   { 
     name: "Nailul Athiyyah", 
     specialization: "Nailul", 
     img: "/img/Nailul.jpg", 
-    thesis: "The Catalyst. Positive energy source. The variable that keeps the class atmosphere dynamic and alive." 
+    thesis: "She likes money (She's bendum)" 
   },
   { 
     name: "Dey Fadilla", 
     specialization: "Desy", 
     img: "/img/Desy.jpg", 
-    thesis: "The Treasurer. Most trusted asset guardian. Probability of calculation error under her watch: 0%." 
+    thesis: "She also likes singing" 
   }
 ];
 
