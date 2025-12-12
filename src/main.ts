@@ -219,7 +219,7 @@ function loadSong(index: number) {
 
 function togglePlay() {
   if (audioEl.paused) {
-    audioEl.play().catch(e => console.log("Interaction needed first"));
+    audioEl.play().catch(() => console.log("Interaction needed first"));
     playIcon?.classList.remove('fa-play');
     playIcon?.classList.add('fa-pause');
   } else {
