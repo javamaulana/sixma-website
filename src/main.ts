@@ -96,7 +96,7 @@ const timelineData: Event[] = [
   },
   { 
     year: "14 Oct 2024", 
-    title: "Donning the Mantle", 
+    title: "Alma Mater", 
     desc: "Wearing our Alma Mater jackets for the first time at the Rectorate Field. Officially recognized as entities of Andalas University.", 
     img: "/img/FirstAlmet.jpg" 
   }
