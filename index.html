@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIXMA | Math English Class</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    
+    <div id="math-bg" class="math-background"></div>
+
+    <div id="loader">
+      <div class="loader-content">
+        <div class="hex-spinner"></div>
+        <p class="loading-text">CALCULATING VARIABLES...</p>
+      </div>
+    </div>
+
+    <nav class="glass-nav">
+      <div class="logo">SIX<span class="highlight">MA</span><span class="degree">°</span></div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#members">Scholars</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#achievements">Honors</a></li>
+      </ul>
+    </nav>
+
+    <header id="hero">
+      <div class="hero-content">
+        <div class="subtitle">Mathematics English Class</div>
+        <h1 id="typewriter"></h1>
+        <p class="fade-in">"Small Set, Maximum Value."</p>
+        <div class="hero-divider"></div>
+        <a href="#members" class="btn-gold fade-in">Explore The Variables</a>
+      </div>
+    </header>
+
+    <main>
+       <div class="golden-thread"></div>
+
+       <div class="stats-bar">
+          <div class="stat-box"> <span class="num">6</span> <span class="label">Variables</span> </div>
+          <div class="divider-vertical"></div>
+          <div class="stat-box"> <span class="num">1</span> <span class="label">Equation</span> </div>
+          <div class="divider-vertical"></div>
+          <div class="stat-box"> <span class="num">∞</span> <span class="label">Solutions</span> </div>
+       </div>
+
+      <section id="members">
+        <div class="section-header">
+          <h2>The Scholars</h2>
+          <p>The six variables of our equation</p>
+        </div>
+        <div id="member-container" class="grid-container"></div>
+      </section>
+
+      <section id="timeline">
+        <div class="section-header">
+          <h2>The Derivation</h2>
+          <p>Historical events analysis</p>
+        </div>
+        <div class="timeline-wrapper">
+            <div id="timeline-container"></div>
+        </div>
+      </section>
+
+      <section id="achievements">
+        <div class="section-header">
+          <h2>Honors & Distinctions</h2>
+          <p>Celebrating excellence within our equation</p>
+        </div>
+        <div id="achievement-container" class="awards-grid"></div>
+      </section>
+
+      <section id="gallery">
+        <div class="section-header">
+          <h2>Visual Proofs</h2>
+          <p>Evidence of our existence</p>
+        </div>
+        <div id="gallery-container" class="gallery-grid"></div>
+      </section>
+
+      <section id="messages">
+        <div class="section-header">
+          <h2>Theorem Board</h2>
+          <p>Leave a hypothesis for the future</p>
+        </div>
+        <div class="message-form">
+          <input type="text" id="msg-input" placeholder="Write your hypothesis..." maxlength="60">
+          <button id="msg-btn">Publish</button>
+        </div>
+        <div id="msg-container" class="msg-grid"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-logo">SIXMA</div>
+      <p>&copy; 2025</p>
+    </footer>
+
+    <div class="music-player">
+      <div class="music-info">
+        <span id="music-title" class="music-title">Loading Music...</span>
+        <div class="progress-bar"><div class="fill" id="progress-fill"></div></div>
+      </div>
+      <div class="music-controls">
+        <button id="prev-btn" class="control-btn"><i class="fa-solid fa-backward-step"></i></button>
+        <button id="play-btn" class="play-btn"><i class="fa-solid fa-play"></i></button>
+        <button id="next-btn" class="control-btn"><i class="fa-solid fa-forward-step"></i></button>
+      </div>
+      <audio id="bg-music"></audio>
+    </div>
+
+    <div id="modal-overlay" class="modal hidden">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <div class="modal-flex">
+          <div class="modal-img-box">
+             <img id="modal-img" src="" alt="">
+          </div>
+          <div class="modal-details">
+            <span id="modal-subtitle" class="modal-meta"></span>
+            <h2 id="modal-title"></h2>
+            <div class="modal-line"></div>
+            <p id="modal-desc"></p>
+            <div id="modal-note" class="handwritten"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
