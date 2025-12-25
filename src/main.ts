@@ -1,6 +1,5 @@
 import './style.css'
 
-// --- INTERFACES ---
 interface Scholar {
   name: string;
   specialization: string;
@@ -60,11 +59,10 @@ const scholars: Scholar[] = [
     name: "Desy Fadilla", 
     specialization: "Desy", 
     img: "/img/Desy.jpg", 
-    thesis: "She also likes singing" 
+    thesis: "The rain is falling in my heart \nWith their happiness and trauma" 
   }
 ];
 
-// --- DATA: ACHIEVEMENTS (PRESTASI) ---
 const achievements: Achievement[] = [
   { 
     title: "Final Project Completion", 
