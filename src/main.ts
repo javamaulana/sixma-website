@@ -8,7 +8,6 @@ interface Scholar {
   thesis: string;
 }
 
-// UPDATE: Menambahkan properti 'img' agar tiap prestasi bisa punya foto sendiri
 interface Achievement {
   title: string;
   event: string;
@@ -16,7 +15,7 @@ interface Achievement {
   date: string;
   icon: string;
   desc: string;
-  img: string; // Foto bukti prestasi
+  img: string; 
 }
 
 interface Event {
@@ -26,13 +25,12 @@ interface Event {
   img: string;
 }
 
-// --- DATA: SCHOLARS (MEMBER) ---
 const scholars: Scholar[] = [
   { 
     name: "Java Maulana", 
     specialization: "Java", 
     img: "/img/Java.jpg", 
-    thesis: "Hi, I like Tambusu" 
+    thesis: "Patah, rapuh, luruh, sembuh, tumbuh." 
   },
   { 
     name: "Naila Farizka Azzahra", 
@@ -59,7 +57,7 @@ const scholars: Scholar[] = [
     thesis: "She likes money (She's bendum)" 
   },
   { 
-    name: "Dey Fadilla", 
+    name: "Desy Fadilla", 
     specialization: "Desy", 
     img: "/img/Desy.jpg", 
     thesis: "She also likes singing" 
@@ -67,16 +65,15 @@ const scholars: Scholar[] = [
 ];
 
 // --- DATA: ACHIEVEMENTS (PRESTASI) ---
-// UPDATE: Hanya satu prestasi sesuai request
 const achievements: Achievement[] = [
   { 
     title: "Final Project Completion", 
     event: "Algorithm & Programming", 
     recipient: "SIXMA Team", 
     date: "29 June 2025", 
-    icon: "fa-laptop-code", // Ikon laptop/coding
+    icon: "fa-laptop-code", 
     desc: "Successfully developed a comprehensive program using Python language. Demonstrating computational logic and advanced problem-solving skills for the final course assessment.",
-    img: "/img/ADP_Project.jpg" // Pastikan foto ini ada di folder public/img
+    img: "/img/ADP_Project.jpg" 
   }
 ];
 
